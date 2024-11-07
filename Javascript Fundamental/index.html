@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Demo Tipe Data dalam JavaScript</h1>
+        <p>Pilih tipe data dan metode output yang Anda inginkan:</p>
+
+        <div class="output-method">
+            <h3>1. Pilih Metode Output:</h3>
+            <button class="alert-button" onclick="toggleOutput('alert')">Tampilkan dengan Alert</button>
+            <button class="console-button" onclick="toggleOutput('console')">Tampilkan di Console</button>
+        </div>
+        
+        <div class="method-buttons">
+            <h3>2. Pilih Tipe Data:</h3>
+            <button onclick="demoString()">String</button>
+            <button onclick="demoNumber()">Number</button>
+            <button onclick="demoBoolean()">Boolean</button>
+            <button onclick="demoArray()">Array</button>
+            <button onclick="demoObject()">Object</button>
+        </div>
+        
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

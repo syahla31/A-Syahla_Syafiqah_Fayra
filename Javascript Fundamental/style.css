@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f6d5f7, #fbe9d7);
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+button {
+    padding: 10px 20px;
+    background-color:lightslategray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover {
+    background-color:lightgray;
+}
+.output-method {
+    margin-top: 10px;
+}
+.method-buttons {
+    margin-bottom: 15px;
+}
+.alert-button {
+    background-color:lightpink;
+}
+.console-button {
+    background-color:lightblue;
+}
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    white-space: pre-line;
+    font-family: monospace;
+    background-color: #f8f9fa;
+}
